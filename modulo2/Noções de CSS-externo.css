@@ -1,0 +1,19 @@
+h1 {
+
+    color: brown;
+    font-size: 25px;
+}
+
+a{
+    color: blueviolet;
+    font-size: 30px;
+
+}
+img {
+    height:"50px";
+    width:"100px";
+}
+li {
+    color: brown;
+    font-weight: bold;
+}
