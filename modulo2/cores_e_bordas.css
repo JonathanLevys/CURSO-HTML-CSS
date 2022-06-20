@@ -1,0 +1,21 @@
+#TITULO{
+    background-color: #f00;
+}
+
+p {
+    border: 5px solid #0000ff;
+
+}
+
+
+/*
+*CORES PODEM SEM DEFINIDAS POR DIVERSOS PADRÕES, COMO NOS EXEMPLOS ACIMA.
+RGB = R G B
+R = RED
+G = GREEN
+B= BLUE
+
+*A MISTURA DESSAS CORES FORMAM TODAS AS CORES.
+
+*TAMBÉM PODEM 
+*/
