@@ -1,0 +1,52 @@
+/* ID e/ou CLASS na tag, são formas de selecionar uma tag específica para aplicar um estilo CSS.*/
+    
+
+
+/* NOME_DO_ELEMENTO (Esta forma são selecionadas todas as tags com o mesmo nome, para aplicar as atribuições )*/
+        h1 {
+            color: brown;   
+        }
+
+#ID_DO_ELEMENTO{ /*Esta forma são selecionadas apenas as ID' associadas nas tags, para que não aplique atribuições em outras tags */
+    /*Para aplicar esta atribuição, devo iniciar com "#" e o nome definido para o ID.*/
+    /*Como ID só posso aplicar em um tipo de tag*/
+    /*Sendo apenas utilizado em alguma tag especifica*/
+}
+#TITULO { 
+
+    color: blue;
+}
+
+.CLASS_DO_ELEMENTO {/*Esta forma são selecionadas apenas as CLASS' associadas nas tags, para que não aplique atribuições em outras tags */
+    /*Para aplicar esta atribuição, devo iniciar com "." e o nome definido para o CLASS.*/
+    /*Como CLASS posso aplicar em varios de tags*/
+    /*Sendo este atributo o mais utilizado nas tags*/
+}
+
+.texto {
+    color: blueviolet;
+   font-weight: bold;
+}
+
+ELEMENTO, OUTROELEMENTO {
+        /*
+            exemplo : #titulo,
+                    .texto{
+                        color: blue;
+                        font-size:25px;
+                    }
+    Desta forma uno os atributos para aplicar em todas as tags.*/
+
+}
+
+ELEMENTO OUTROELEMENTO {
+/*      exemplo: ol li {
+                color: red;
+            }
+
+    Desta forma ele busca dentro das tags, até encontrar o atributo desejado.
+*/
+}
+ol li {
+    color: red;
+}
