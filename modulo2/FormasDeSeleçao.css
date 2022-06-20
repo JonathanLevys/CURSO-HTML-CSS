@@ -7,17 +7,18 @@
             color: brown;   
         }
 
-#ID_DO_ELEMENTO{ /*Esta forma são selecionadas apenas as ID' associadas nas tags, para que não aplique atribuições em outras tags */
+#ID_DO_ELEMENTO { /*Esta forma são selecionadas apenas as ID' associadas nas tags, para que não aplique atribuições em outras tags */
     /*Para aplicar esta atribuição, devo iniciar com "#" e o nome definido para o ID.*/
     /*Como ID só posso aplicar em um tipo de tag*/
     /*Sendo apenas utilizado em alguma tag especifica*/
+    color: black;
 }
 #TITULO { 
 
     color: blue;
 }
 
-.CLASS_DO_ELEMENTO {/*Esta forma são selecionadas apenas as CLASS' associadas nas tags, para que não aplique atribuições em outras tags */
+.CLASS_DO_ELEMENTO {color: black/*Esta forma são selecionadas apenas as CLASS' associadas nas tags, para que não aplique atribuições em outras tags */
     /*Para aplicar esta atribuição, devo iniciar com "." e o nome definido para o CLASS.*/
     /*Como CLASS posso aplicar em varios de tags*/
     /*Sendo este atributo o mais utilizado nas tags*/
@@ -28,7 +29,7 @@
    font-weight: bold;
 }
 
-ELEMENTO, OUTROELEMENTO {
+ELEMENTO, OUTROELEMENTO {color: black
         /*
             exemplo : #titulo,
                     .texto{
@@ -39,7 +40,7 @@ ELEMENTO, OUTROELEMENTO {
 
 }
 
-ELEMENTO OUTROELEMENTO {
+ELEMENTO OUTROELEMENTO {color: black
 /*      exemplo: ol li {
                 color: red;
             }
