@@ -20,7 +20,7 @@ EXEMPLO FF0000 = VERMELHO
         0000FF - AZUL
 */
 p {
-    border: 5px solid #0000ff;
+    border: 5px dashed #0000ff;
 
 }
 
@@ -29,4 +29,37 @@ p {
  - DOTTED = pontinhado
  - DASHED = tracinhado
  - DOUBLE = linhas dupla
+ - INSET = baixo relevo
+ - OUTSET = alto relevo
+ - GROOVE = solida mais grossa
+
+ *POSSO APLICAR A BORDA TAMBÉM EM PARTES INDIVIDUAIS, COMO NA PARTE INFERIOR.
+  EXEMPLO: border-bottom (aplicada na parte inferior)
+  border-botton: 5px solid red;
+  -botton = baixo
+  -top = cima
+  -left = esquerdo
+  -right = direita
+
+ * POSSO TAMBÉM APLICAR BORDAS ARREDONDADAS.
+    EXEMPLO: border-radius: 5px;
+
+    
 */
+
+div {
+    background-color: #00ff00;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: dotted 5px #045e23;
+}
+
+img {
+    border: solid 7px #000000;
+    border-radius: 4px;
+}
+
+a {
+    border: 3px rgb(0, 163, 160);
+}
