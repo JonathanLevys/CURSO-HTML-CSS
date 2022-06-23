@@ -1,12 +1,7 @@
 #TITULO{
     background-color: #f00;
 }
-
-p {
-    border: 5px solid #0000ff;
-
-}
-
+/* O BACKGROUNG-COLOR É A COR DE FUNDO DA IMAGEM, PODENDO SER APLICADO EM DIVERSOS LOCAIS DO CODIGO.*/
 
 /*
 *CORES PODEM SEM DEFINIDAS POR DIVERSOS PADRÕES, COMO NOS EXEMPLOS ACIMA.
@@ -17,5 +12,21 @@ B= BLUE
 
 *A MISTURA DESSAS CORES FORMAM TODAS AS CORES.
 
-*TAMBÉM PODEM 
+*TAMBÉM POOSO CONFIGURAÇÃO NA FORMA HEXADECIMAL
+*O HEXADECIMAL NADA MAIS É QUE CODIGOS QUE REPRESENTAM O RGB, UTILIZANDO NUMEROS E LETRAS,
+SÃO: 0,1,2,3,4,5,6,7,8,9.A,B,C,D,E,F, NESTE CONJUNTOS SÃO FORMADOS DIVERSAS CORES.
+EXEMPLO FF0000 = VERMELHO
+        00FF00 = VERDE
+        0000FF - AZUL
+*/
+p {
+    border: 5px solid #0000ff;
+
+}
+
+/* Existem também diversos tipos de bordas no códigos, sendo mais utilizados solid e dotted(pontinhado)
+ - SOLID = solida
+ - DOTTED = pontinhado
+ - DASHED = tracinhado
+ - DOUBLE = linhas dupla
 */
