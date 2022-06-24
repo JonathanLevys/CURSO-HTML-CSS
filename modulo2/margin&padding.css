@@ -11,4 +11,9 @@
 - padding = espaçamento interno;
 - margin = espaçamento externo;
 - conteudo
+ * Para verificar os padrões destes itens, devo ir no navegador e clicar com o botão direito e selecionar "inspecionar".
+ Cada elemento terá o seu valor demonstrado.
+ *O padding é um dos elementos mais importantes, pois ele é responsável por cada espaço dentro da estrutura, podendo
+ também ser definido com valores diferentes em cada lado da estrutura;
+ Ex: padding: 10px 20px 15px 25px (Este segue o fluxo horário com o inicio em top => right => botton => left.
 */
