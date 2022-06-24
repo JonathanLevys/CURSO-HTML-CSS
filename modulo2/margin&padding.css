@@ -1,4 +1,14 @@
 .exemplo {
-    border: 3px solid #00ff00;
+
+    border:3px solid #00ff00;
+    padding: 10px;
+    margin: 10px;
+
 
 }
+/* Todos os elementos terão na sua estrutura os seguinte itens:
+- border
+- padding = espaçamento interno;
+- margin = espaçamento externo;
+- conteudo
+*/
